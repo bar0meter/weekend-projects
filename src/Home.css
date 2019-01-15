@@ -1,0 +1,55 @@
+.wrapper {
+  width: 400px;
+  margin: 50px auto;
+  background: black;
+  color: white;
+}
+
+.wrapper main {
+  padding: 10px;
+}
+
+.wrapper main h3 {
+  padding-left: 20px;
+}
+
+.wrapper main ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper main ul li {
+  padding: 10px 20px;
+  display: flex;
+  align-items: flex-start;
+  line-height: 1;
+}
+
+.wrapper li .drag {
+  margin-right: 15px;
+  cursor: move;
+}
+
+.hamburgerButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 20px;
+  width: 25px;
+  background: transparent;
+  border: none;
+  cursor: inherit;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.buttonLine {
+  width: 25px;
+  height: 2px;
+  background: white;
+}
+
+.hamburgerButton:focus {
+  outline: none;
+}
