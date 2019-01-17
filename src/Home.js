@@ -3,6 +3,7 @@ import React from "react";
 import TopBar from "./TopBar";
 import "./Home.css";
 import SideBar from "./SideBar";
+import Main from "./Main";
 
 class Home extends React.Component {
   render() {
@@ -14,7 +15,9 @@ class Home extends React.Component {
         <div className="sideBar">
           <SideBar />
         </div>
-        <div className="main" />
+        <div className="main">
+          <Main />
+        </div>
       </div>
     );
   }

@@ -18,7 +18,10 @@ class SideBar extends React.Component {
             id="searchBox"
           />
         </div>
-        <div className="recentRepos" />
+        <div className="recentRepos">
+          <a href="">Repo</a>
+          <a href="">Repo</a>
+        </div>
       </React.Fragment>
     );
   }
