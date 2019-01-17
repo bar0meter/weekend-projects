@@ -22,7 +22,7 @@ const RecentActivityFollowers = props => {
             <div className="color" />
             <div className="language">Javascript</div>
           </div>
-          <div lassName="repoStars">
+          <div className="repoStars">
             <div className="starIcon" />
             <div className="starNo">61</div>
           </div>

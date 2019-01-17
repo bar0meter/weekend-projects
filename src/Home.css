@@ -1,6 +1,7 @@
 .wrapper {
   display: grid;
-  grid-template-areas: "header header header header"
+  grid-template-areas:
+    "header header header header"
     "sidebar main main main";
   grid-template-columns: 20% auto;
   grid-template-rows: 8% auto;
@@ -97,7 +98,7 @@
 .sideBar .sideBar-header {
   display: flex;
   padding: 10px 0;
-  align-items: center
+  align-items: center;
 }
 
 .sideBar .spacer {
@@ -148,7 +149,8 @@
   flex-direction: column;
 }
 
-.main .activityFollower .activityDetails {}
+.main .activityFollower .activityDetails {
+}
 
 .main .activityFollower .activityRepo {
   padding: 10px 20px;
@@ -170,12 +172,15 @@
 
 .main .activityFollower .activityRepo .repoDetails {
   display: flex;
+  font-size: 13px;
+  margin-top: 5px;
 }
 
 .main .activityFollower .activityRepo .repoDetails .repoLanguage {
   display: flex;
   align-items: center;
-  padding: 2px;
+  padding: 0 2px;
+  margin-right: 5px;
 }
 
 .main .activityFollower .activityRepo .repoDetails .color {
@@ -183,6 +188,27 @@
   width: 10px;
   border-radius: 50%;
   background: yellow;
-  margin-top: 3px;
+  margin-top: 2px;
   margin-right: 5px;
+}
+
+.main .activityFollower .activityRepo .repoDetails .repoStars {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  padding: 0 2px;
+}
+
+.main .activityFollower .activityRepo .repoDetails .repoIssuesNos {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  padding: 0 2px;
+}
+
+.main .activityFollower .activityRepo .repoDetails .repoLastUpdated {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  padding: 0 2px;
 }
