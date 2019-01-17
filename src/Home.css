@@ -1,0 +1,128 @@
+.wrapper {
+  display: grid;
+  grid-template-areas: "header header header header"
+    "sidebar main main main";
+  grid-template-columns: 20% auto;
+  grid-template-rows: 8% auto;
+  height: 100vh;
+}
+
+.topNavBar {
+  grid-area: header;
+  background-color: #24292e;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 100%;
+}
+
+.sideBar {
+  grid-area: sidebar;
+  padding: 30px 15px;
+  /* width: 100%; */
+}
+
+.main {
+  grid-area: main;
+  background-color: rgb(247, 247, 247);
+}
+
+.topNavBar .brandLogo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.topNavBar .brandLogo a i {
+  color: white;
+}
+
+.topNavBar .searchBox {
+  padding: 0 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+
+#searchBox-header {
+  border: none;
+  padding: 0 10px;
+  height: 50%;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.topBarLinks {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.topBarLinks a {
+  padding: 0 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.topBarLinks a:hover,
+.topBarLinks a:active {
+  color: rgb(175, 175, 175);
+}
+
+.spacer {
+  flex: 1;
+}
+
+.dropDowns {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.dropDowns a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.dropDowns a i {
+  padding-right: 5px;
+}
+
+.sideBar .sideBar-header {
+  display: flex;
+  padding: 10px 0;
+  align-items: center
+}
+
+.sideBar .spacer {
+  flex: 1;
+}
+
+.sideBar .searchBox-sidebar {
+  width: 100%;
+  padding: 0;
+}
+
+.sideBar .newRepo-btn #newRepo {
+  padding: 5px;
+  width: 50px;
+  background: #34d058;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.sideBar .searchBox-sidebar #searchBox {
+  width: 95%;
+  border: 0.5px solid rgb(211, 208, 208);
+  margin: 0;
+  height: 1.75rem;
+  padding: 0 6px;
+  border-radius: 5px;
+}
+
+.sideBar .searchBox-sidebar #searchBox::placeholder {
+  color: rgb(211, 207, 207);
+}
