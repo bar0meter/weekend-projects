@@ -17,7 +17,18 @@ const RecentActivityFollowers = props => {
         <div className="repoDescription">
           Small simple projects done over the weekens
         </div>
-        <div className="repoDetails" />
+        <div className="repoDetails">
+          <div className="repoLanguage">
+            <div className="color" />
+            <div className="language">Javascript</div>
+          </div>
+          <div lassName="repoStars">
+            <div className="starIcon" />
+            <div className="starNo">61</div>
+          </div>
+          <div className="repoIssuesNos">1 issue needs help</div>
+          <div className="repoLastUpdated">Updated Jan 17</div>
+        </div>
       </div>
     </div>
   );
