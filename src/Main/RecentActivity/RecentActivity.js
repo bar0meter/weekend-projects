@@ -1,4 +1,6 @@
-import React from "react";
+import React from 'react';
+
+import './RecentActivity.css';
 
 const RecentActivityFollowers = props => {
   return (
@@ -22,12 +24,12 @@ const RecentActivityFollowers = props => {
             <div className="color" />
             <div className="language">Javascript</div>
           </div>
-          <div className="repoStars">
+          <div className="properSpacing">
             <div className="starIcon" />
             <div className="starNo">61</div>
           </div>
-          <div className="repoIssuesNos">1 issue needs help</div>
-          <div className="repoLastUpdated">Updated Jan 17</div>
+          <div className="properSpacing">1 issue needs help</div>
+          <div className="properSpacing">Updated Jan 17</div>
         </div>
       </div>
     </div>

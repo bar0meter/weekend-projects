@@ -1,0 +1,62 @@
+.brandLogo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.brandLogo a i {
+  color: white;
+}
+
+.searchBox {
+  padding: 0 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+
+#searchBox-header {
+  border: none;
+  padding: 0 10px;
+  height: 50%;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.topBarLinks {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.topBarLinks a {
+  padding: 0 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.topBarLinks a:hover,
+.topBarLinks a:active {
+  color: rgb(175, 175, 175);
+}
+
+.spacer {
+  flex: 1;
+}
+
+.dropDowns {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.dropDowns a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.dropDowns a i {
+  padding-right: 5px;
+}

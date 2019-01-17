@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import TopBar from "./TopBar";
-import "./Home.css";
-import SideBar from "./SideBar";
-import Main from "./Main";
+import TopBar from './Topbar/TopBar';
+import './Home.css';
+import SideBar from './SideBar/SideBar';
+import Main from './Main/Main';
 
 class Home extends React.Component {
   render() {

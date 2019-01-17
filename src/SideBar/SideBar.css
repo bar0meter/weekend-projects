@@ -1,0 +1,48 @@
+.sideBar-header {
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.searchBox-sidebar {
+  width: 100%;
+  padding: 0;
+}
+
+.newRepo-btn #newRepo {
+  padding: 5px;
+  width: 50px;
+  background: #34d058;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.searchBox-sidebar #searchBox {
+  width: 95%;
+  border: 0.5px solid rgb(211, 208, 208);
+  margin: 0;
+  height: 1.75rem;
+  padding: 0 6px;
+  border-radius: 5px;
+}
+
+.searchBox-sidebar #searchBox::placeholder {
+  color: rgb(211, 207, 207);
+}
+
+.recentRepos {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.recentRepos a {
+  padding: 2px 5px;
+  color: rgb(63, 63, 238);
+}
