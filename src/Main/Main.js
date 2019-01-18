@@ -1,12 +1,17 @@
-import React from 'react';
-import RecentActivityFollowers from './RecentActivity/RecentActivity';
+import React from "react";
+import RecentActivityFollowers from "./RecentActivity/RecentActivity";
+
+import "./Main.css";
 
 const Main = props => {
   return (
     <React.Fragment>
-      <RecentActivityFollowers />
-      <br />
-      <hr />
+      <div className="followerActivity">
+        <RecentActivityFollowers />
+      </div>
+      <div className="followerActivity">
+        <RecentActivityFollowers />
+      </div>
     </React.Fragment>
   );
 };
