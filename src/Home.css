@@ -30,4 +30,7 @@
   grid-area: main;
   background-color: rgb(247, 247, 247);
   padding: 30px 15px;
+  display: grid;
+  grid-template-columns: auto 32%;
+  grid-gap: 10px;
 }
