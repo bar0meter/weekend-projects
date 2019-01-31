@@ -63,6 +63,29 @@ function MainContent({ weatherData }) {
   );
 }
 
+function Sidebar_1({ main }) {
+  return main ? (
+    <Fragment>
+      <div />
+    </Fragment>
+  ) : (
+    ""
+  );
+}
+
+function Sidebar_2({ coordinates, weather }) {
+  return coordinates ? (
+    <Fragment>
+      <div>
+        Latitude: {coordinates.lat}, Longitude: {coordinates.lon}
+      </div>
+      <div>{weather[0].main}</div>
+    </Fragment>
+  ) : (
+    ""
+  );
+}
+
 function DisplayWeather() {
   const [data, setData] = useState({
     cityName: "",
@@ -94,8 +117,15 @@ function DisplayWeather() {
         <div className="displayMain">
           <MainContent weatherData={data.weatherData} />
         </div>
-        <div className="sideBar-1">Sidebar 1</div>
-        <div className="sideBar-2">Sidebar 2</div>
+        <div className="sideBar">
+          <div className="sideBar-1" />
+          <div className="sideBar-2">
+            <Sidebar_2
+              coordinates={data.weatherData.coord}
+              weather={data.weatherData.weather}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
