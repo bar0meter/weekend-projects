@@ -2,7 +2,6 @@ html {
   padding: 0;
   margin: 0;
   height: 100%;
-  /* color: rgb(173, 173, 173) */
 }
 
 body {
@@ -91,22 +90,12 @@ body {
 
 .displayMain {
   grid-area: displayMain;
-  padding: 0 20px 20px 20px;
-  box-sizing: border-box;
-  border-width: 0 1px 0 0;
-  border-style: solid;
-  border-color: rgb(226, 225, 225);
 }
 
-.sideBar-1 {
+.sidebar1 {
   grid-area: sidebar1;
-  border-width: 0 0 1px 0;
-  border-style: solid;
-  border-color: rgb(226, 225, 225);
-  padding: 5px;
 }
 
-.sideBar-2 {
+.sidebar2 {
   grid-area: sidebar2;
-  padding: 5px;
 }
